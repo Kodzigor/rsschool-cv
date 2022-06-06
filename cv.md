@@ -46,3 +46,11 @@ friendsAvailable = false;
 console.log(makePlans("James"))
 
 ```
+
+## Education
+
+-   University: Odessa National Maritime University, shipbuilding-engineer
+-   Courses:
+    -   https://csx.codesmith.io/
+    -   Udemy: https://www.udemy.com/course/webdeveloper
+    -   Udemy: https://www.udemy.com/course/the-complete-javascript-course
