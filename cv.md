@@ -54,3 +54,7 @@ console.log(makePlans("James"))
     -   https://csx.codesmith.io/
     -   Udemy: https://www.udemy.com/course/webdeveloper
     -   Udemy: https://www.udemy.com/course/the-complete-javascript-course
+
+## English
+
+C1 level according to test https://www.efset.org/cert/invhMm. But I feel like I'm a B2 level.
