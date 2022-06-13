@@ -71,8 +71,8 @@
 			<section class="skills" id="skills">
 				<div class="container skills__container">
 					<h2 class="skills__title">My Skills</h2>
-					<p class="skills__text">Some things that I know</p>
-					<div class="skills__wrapper">
+					<p class="subtitle">Some things that I know</p>
+					<div class="wrapper skills__wrapper">
 						<div class="skills__column">
 							<article class="skills__item">
 								<img
@@ -137,6 +137,26 @@
 								<span class="skills__item-text">Gulp</span>
 							</article>
 						</div>
+					</div>
+				</div>
+			</section>
+			<section class="code">
+				<div class="container code__container">
+					<h2 class="code__title">Code</h2>
+					<p class="subtitle">Example of my code</p>
+					<div class="wrapper code__wrapper">
+						<pre>
+							<code>
+	<span class="text-keyword">const</span> favoriteCities = [<span class="text-string">'liSBon'</span>, <span class="text-string">'ROME'</span>, <span class="text-string">'miLan'</span>, <span class="text-string">'Dublin'</span>];
+
+	<span class="text-keyword">function</span> <span class="text-function">standardizeStrings</span>(arr) {
+		<span class="text-keyword">let</span> cities = <span class="text-string">arr</span>.<span class="text-function">map</span>((el) => <span class="text-string">el</span>.<span class="text-function">toLowerCase</span>()); 
+		<span class="text-keyword">return</span> cities;
+	}
+	
+	<span class="text-function">standardizeStrings</span>(favoriteCities);
+							</code>
+						</pre>
 					</div>
 				</div>
 			</section>
