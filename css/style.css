@@ -2,7 +2,7 @@ html {
   font-family: "Work-Sans", Verdana, sans-serif;
 }
 
-.header__nav-link:after, .header__nav-link {
+.education__item a, .header__nav-link:after, .header__nav-link {
   transition: all 0.5s ease-out;
 }
 
@@ -538,6 +538,10 @@ template {
 .education__item > * {
   font-size: 1.8rem;
   line-height: 3.2rem;
+}
+.education__item a:hover {
+  color: #5c62ec;
+  text-decoration: underline;
 }
 
 .languages__wrapper {
