@@ -540,4 +540,17 @@ template {
   line-height: 3.2rem;
 }
 
+.languages__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+.languages__item {
+  display: flex;
+  flex-direction: column;
+}
+.languages__level {
+  font-size: 1.6rem;
+}
+
 /*# sourceMappingURL=style.css.map */
