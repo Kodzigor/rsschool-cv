@@ -71,6 +71,15 @@ p {
   margin-bottom: 24px;
 }
 
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .subtitle {
   display: inline-block;
   position: relative;
@@ -511,6 +520,23 @@ template {
 
 .text-string {
   color: #e7ce56;
+}
+
+.education__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.education__item {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 4fr 2fr;
+  column-gap: 20px;
+  padding-left: 40px;
+}
+.education__item > * {
+  font-size: 1.8rem;
+  line-height: 3.2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
