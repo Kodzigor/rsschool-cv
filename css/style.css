@@ -490,6 +490,9 @@ template {
   height: 24px;
 }
 
+.code__container {
+  padding: 20px 0 20px;
+}
 .code__wrapper {
   background-color: #26292d;
 }
