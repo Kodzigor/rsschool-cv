@@ -38,12 +38,15 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 65px 0 128px;
 }
 
 .hidden__title {
   position: absolute;
   top: -100%;
+}
+
+section {
+  margin-bottom: 70px;
 }
 
 h2 {
@@ -458,6 +461,7 @@ template {
 .about__container {
   display: flex;
   column-gap: 140px;
+  padding: 65px 0 128px;
 }
 .about__img {
   height: 550px;
@@ -480,9 +484,6 @@ template {
   text-align: left;
 }
 
-.skills__container {
-  padding: 65px 0 80px;
-}
 .skills__wrapper {
   display: flex;
   justify-content: space-around;
