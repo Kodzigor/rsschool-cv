@@ -471,6 +471,9 @@ template {
   text-align: left;
 }
 
+.skills__container {
+  padding: 65px 0 80px;
+}
 .skills__wrapper {
   display: flex;
   justify-content: space-around;
@@ -491,10 +494,11 @@ template {
 }
 
 .code__container {
-  padding: 20px 0 20px;
+  padding: 0;
 }
 .code__wrapper {
   background-color: #26292d;
+  padding: 0;
 }
 
 .text-keyword {
