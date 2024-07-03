@@ -21,3 +21,22 @@ My goal is to became a senior Frontend developer. I love learning and discoverin
 - JS(ES6)
 - Figma
 - Git
+
+## Code
+
+```
+function FindIntersection(strArr) {
+  let inter = strArr[0]
+    .split(',')
+    .map(el => el.trim())
+    .filter(el =>
+      strArr[1]
+        .split(',')
+        .map(el => el.trim())
+        .includes(el),
+    );
+  return inter;
+}
+FindIntersection(['89, 1,6, 3, 4, 7, 13', '1, 2, 4, 13, 15, 89. 95, 74, 6']);
+
+```
