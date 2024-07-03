@@ -40,3 +40,15 @@ function FindIntersection(strArr) {
 FindIntersection(['89, 1,6, 3, 4, 7, 13', '1, 2, 4, 13, 15, 89. 95, 74, 6']);
 
 ```
+
+## Education
+
+- University: Odessa National Maritime University, Shipbuilding-engineer
+- Courses:
+  - Udemy: https://www.udemy.com/course/javascript_full
+  - Udemy: https://www.udemy.com/course/webdeveloper
+  - Udemy: https://www.udemy.com/course/the-complete-javascript-course
+
+## English
+
+My level is B2 now.
