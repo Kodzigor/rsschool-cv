@@ -4,12 +4,305 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV Igor Kodzhebash</title>
+  <title>Kodzhebash Igor, Frontend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1>CV Igor Kodzhebashs</h1>
+  <header class="header">
+    <div class="container header__container">
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="#about" class="header__nav-link">About Me</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#skills" class="header__nav-link">My Skills</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#projects" class="header__nav-link">Projects</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#education" class="header__nav-link">Education</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#languages" class="header__nav-link">Languages</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#footer" class="header__nav-link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h1 class="hidden__title">
+      Igor Kodzhebash - Junior Front End Developer
+    </h1>
+    <section class="about" id="about">
+      <div class="container about__container">
+        <img src="./assets/img/myphoto.jpg" alt="Igor Kodzhebash avatar" class="about__img">
+        <div class="about__content">
+          <h3 class="about__subtitle">Igor Kodzhebash</h3>
+          <h2 class="about__title">Junior Front End Developer</h2>
+          <p class="about__text">
+            My goal is to became a frontend developer. So for this I started
+            to learn HTML, CSS, and after this basic things I started to learn
+            JavaScript. For now I learning everything only with free resourses
+            and some Udemy courses. I have a lot of desire to learn knew
+            things and my eays burns when I achieve some little goals.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2 class="skills__title">My Skills</h2>
+        <p class="subtitle">Some things that I know</p>
+        <div class="wrapper skills__wrapper">
+          <div class="skills__column">
+            <div class="skills__item">
+              <img class="skills__item-icon" src="./assets/icons/html.svg" alt="html">
+              <span class="skills__item-text">HTML</span>
+            </div>
+            <div class="skills__item">
+              <img class="skills__item-icon" src="./assets/icons/css.svg" alt="css">
+              <span class="skills__item-text">CSS</span>
+            </div>
+            <div class="skills__item">
+              <img class="skills__item-icon" src="./assets/icons/sass.svg" alt="sass and scss">
+              <span class="skills__item-text">Sass/Scss</span>
+            </div>
+          </div>
+          <div class="skills__column">
+            <div class="skills__item">
+              <img class="skills__item-icon" src="./assets/icons/js.svg" alt="java script">
+              <span class="skills__item-text">JavaScript</span>
+            </div>
+            <div class="skills__item">
+              <img class="skills__item-icon" src="./assets/icons/figma.svg" alt="figma">
+              <span class="skills__item-text">Figma</span>
+            </div>
+            <div class="skills__item">
+              <img class="skills__item-icon" src="./assets/icons/git.svg" alt="git">
+              <span class="skills__item-text">Git</span>
+            </div>
+          </div>
+          <div class="skills__column">
+            <div class="skills__item">
+              <img class="skills__item-icon" src="./assets/icons/gulp.svg" alt="gulp">
+              <span class="skills__item-text">Gulp</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="projects__title">My Projects</h2>
+        <p class="subtitle">List of projects I've done</p>
+        <div class="projects__list">
+          <article class="projects__item">
+            <a class="projects__link" href="https://spontaneous-gingersnap-5dc754.netlify.app/" target="_blank">
+              <img src="./assets/img/keyboard.png" alt="virtual keyboard">
+              <div class="projects__content">
+                <span>HTML, CSS, JavaScript</span>
+                <h3>Virtual keyboard app</h3>
+                <p class="item__descr">You can type text which immediately displays at the display</p>
+              </div>
+            </a>
+          </article>
+          <article class="projects__item">
+            <a class="projects__link" href="https://flourishing-chaja-6e5892.netlify.app/" target="_blank">
+              <img src="./assets/img/weatherApp.png" alt="momentum">
+              <div class="projects__content">
+                <span>HTML, CSS, JavaScript</span>
+                <h3>Copy of the Chrome Momentum app</h3>
+                <p class="item__descr">contains weather app, music player, random quotes, background change and settings</p>
+              </div>
+            </a>
+          </article>
+          <article class="projects__item">
+            <a class="projects__link" href="https://travel-part3.netlify.app/" target="_blank">
+              <img src="./assets/img/travel.png" alt="travel">
+              <div class="projects__content">
+                <span>HTML, CSS, JavaScript</span>
+                <h3>Travel landing page</h3>
+                <p class="item__descr">single page landing with slider and sign form</p>
+              </div>
+            </a>
+          </article>
+          <article class="projects__item">
+            <a class="projects__link" href="https://genuine-kheer-936659.netlify.app/" target="_blank">
+              <img src="./assets/img/pulls.png" alt="pulls">
+              <div class="projects__content">
+                <span>HTML, CSS, JavaScript</span>
+                <h3>Landing page for pulls trackers</h3>
+                <p class="item__descr">Simple single page with responsive layout for descktop, mobile and tablets, forms for make an order with
+                  verification</p>
+              </div>
+            </a>
+          </article>
+          <article class="projects__item">
+            <a class="projects__link" href="https://cerulean-lily-d8c927.netlify.app/" target="_blank">
+              <img src="./assets/img/plants.png" alt="plants">
+              <div class="projects__content">
+                <span>HTML, CSS, JavaScript</span>
+                <h3>Landing page for plants growing</h3>
+                <p class="item__descr">Simple single page with responsive layout for descktop, mobile and tablets</p>
+              </div>
+            </a>
+          </article>
+          <article class="projects__item">
+            <a class="projects__link" href="https://imaginative-douhua-5c6fa4.netlify.app/" target="_blank">
+              <img src="./assets/img/uber.png" alt="pulls">
+              <div class="projects__content">
+                <span>HTML, CSS</span>
+                <h3>Landing page for ordex taxi</h3>
+                <p class="item__descr">Simple single page with responsive layout for descktop</p>
+              </div>
+            </a>
+          </article>
+        </div>
+
+
+      </div>
+
+    </section>
+
+    <!-- <section class="code" id="code">
+        <div class="container">
+          <h2 class="code__title">Code</h2>
+          <p class="subtitle">Example of my code</p>
+          <div class="wrapper code__wrapper">
+            <pre>
+          							<code>
+          	<span class="text-keyword">const</span> favoriteCities = [<span class="text-string">'liSBon'</span>, <span class="text-string">'ROME'</span>, <span class="text-string">'miLan'</span>, <span class="text-string">'Dublin'</span>];
+
+          	<span class="text-keyword">function</span> <span class="text-function">standardizeStrings</span>(arr) {
+          		<span class="text-keyword">let</span> cities = <span class="text-string">arr</span>.<span class="text-function">map</span>((el) => <span class="text-string">el</span>.<span class="text-function">toLowerCase</span>());
+          		<span class="text-keyword">return</span> cities;
+          	}
+
+          	<span class="text-function">standardizeStrings</span>(favoriteCities);
+          							</code>
+          						</pre>
+          </div>
+        </div>
+      </section> -->
+
+    <section class="education" id="education">
+      <div class="container">
+        <h2 class="education__title">Education and courses</h2>
+        <p class="subtitle">Here you can see my learning progress</p>
+        <div class="wrapper education__wrapper">
+          <ul class="education__list">
+            <li class="education__item">
+              <p class="education__year">04.03.2023</p>
+              <p class="education__programm">
+                <a href="  https://app.rs.school/certificate/1jpkpvg7" target="_blank">JS/FE Pre-School 2022Q4 (open certificate by click)</a>
+              </p>
+              <p class="education__company">
+                <a href="https://rs.school/js-stage0/" target="_blank">Rolling Scopes School</a>
+              </p>
+            </li>
+            <li class="education__item">
+              <p class="education__year">2022</p>
+              <p class="education__programm">
+                <a href="https://www.udemy.com/course/the-complete-javascript-course/learn/lecture/22648417?start=15#overview" target="_blank">The
+                  Complete JavaScript Course 2022: From Zero to Expert!
+                </a>
+              </p>
+              <p class="education__company">
+                <a href="https://www.udemy.com/" target="_blank">Udemy</a>
+              </p>
+            </li>
+            <li class="education__item">
+              <p class="education__year">2021</p>
+              <p class="education__programm">
+                <a href="https://www.udemy.com/course/javascript_full/learn/lecture/19509506?start=1485" target="_blank">Full course JavaScript +
+                  React - from zero to result
+                </a>
+              </p>
+              <p class="education__company">
+                <a href="https://www.udemy.com/" target="_blank">Udemy</a>
+              </p>
+            </li>
+            <li class="education__item">
+              <p class="education__year">2021</p>
+              <p class="education__programm">
+                <a href="https://www.udemy.com/course/webdeveloper/" target="_blank">WEB-developer 2022 by Ivan Petrichenco</a>
+              </p>
+              <p class="education__company">
+                <a href="https://www.udemy.com/" target="_blank">Udemy</a>
+              </p>
+            </li>
+            <li class="education__item">
+              <p class="education__year">2003 - 2010</p>
+              <p class="education__programm">Shipbuilding-engineer</p>
+              <p class="education__company">
+                <a href="https://www.udemy.com/" target="_blank">Odessa National Maritime University</a>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="languages" id="languages">
+      <div class="container">
+        <h2 class="languages__title">Languages</h2>
+        <p class="subtitle">The languages I can speak on</p>
+        <div class="wrapper languages__wrapper">
+          <div class="languages__item">
+            <span class="languages__heading">Russian</span>
+            <span class="languages__level">Native</span>
+          </div>
+          <div class="languages__item">
+            <span class="languages__heading">Ukrainian</span>
+            <span class="languages__level">Fluent</span>
+          </div>
+          <div class="languages__item">
+            <span class="languages__heading">English</span>
+            <span class="languages__level">B1</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__container">
+      <ul class="footer__list">
+        <li class="footer__item">
+          <a class="footer__link" href="https://github.com/Kodzigor" target="_blank"><img src="./assets/icons/git.svg" alt="github"> Github</a>
+        </li>
+        <li class="footer__item">
+          <a href="https://rs.school/js-stage0/" target="_blank">
+            <img src="./assets/icons/rs.svg" alt="rsschool">
+          </a>
+        </li>
+      </ul>
+      <ul class="footer__list">
+        <li class="footer__item">2023</li>
+      </ul>
+      <ul class="footer__list list-row">
+        <li class="footer__item">
+          <a class="footer__link" href="email:igorkodzebash@gmail.com" target="_blank"><img src="./assets/icons/email.svg" alt="email">Mail me</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="" target="_blank"><img src="./assets/icons/linkedin.svg" alt="linkedin">Linkedin</a>
+        </li>
+      </ul>
+    </div>
+
+  </footer>
 
 </body>
 
